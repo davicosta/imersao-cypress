@@ -33,7 +33,7 @@ jobs:
       
       - run: npm install
         
-      - run: npm cy:run:cucumber
+      - run: npm run cy:run:cucumber
         
       - run: npm run report:cucumber
         
